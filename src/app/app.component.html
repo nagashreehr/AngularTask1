@@ -1,0 +1,21 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+  <section class="sec">
+    <form>
+      <img src="../assets/logo_caritor.jpg">
+      <h2>{{title}}</h2>
+          <div>
+            <label for="name"><i class="fa fa-user-circle-o" style="font-size:36px"></i></label>
+            <input type="text" id="name" name="firstname" [(ngModel)]="namee">
+            <label for="name"><i class="fa fa-envelope-o" style="font-size:36px"></i></label>
+            <input type="email" id="name" name="email"[(ngModel)]="emaill">
+            <input type="submit" value="Login">
+            <app-display [name]="namee" [email]="emaill"></app-display>
+          </div>
+        </form>
+      </section>
+      </body>
+
+
+
